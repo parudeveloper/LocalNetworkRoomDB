@@ -1,4 +1,4 @@
-package com.netwokandlocaldb.mvvm_livedb_room_1
+package com.netwokandlocaldb.mvvm_livedata_roomdb_1
 
 import android.content.Context
 import androidx.room.Database

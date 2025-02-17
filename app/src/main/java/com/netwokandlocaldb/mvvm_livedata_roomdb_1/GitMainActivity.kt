@@ -1,15 +1,11 @@
-package com.netwokandlocaldb.mvvm_livedb_room_1
+package com.netwokandlocaldb.mvvm_livedata_roomdb_1
 
 import android.os.Bundle
 import android.util.Log
 import android.view.View
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.lifecycle.Observer
 import androidx.lifecycle.ViewModelProvider
-import com.netwokandlocaldb.R
 import com.netwokandlocaldb.databinding.ActivityGitMainBinding
 
 class GitMainActivity : AppCompatActivity() {
