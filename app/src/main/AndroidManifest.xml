@@ -17,6 +17,10 @@
         <!--
 
         <activity
+            android:name=".mvvm_corotine_hilt_flow_roomdb.HotelMainActivity"
+            android:exported="false" />
+
+        <activity
             android:name=".mvvm_repo_room_hilt.ProductMainActivity"
             android:exported="false" />
 
@@ -41,7 +45,7 @@
             android:exported="false" />
         -->
         <activity
-            android:name=".mvvm_repo_room_hilt.ProductMainActivity"
+            android:name=".mvvm_corotine_hilt_flow_roomdb.HotelMainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

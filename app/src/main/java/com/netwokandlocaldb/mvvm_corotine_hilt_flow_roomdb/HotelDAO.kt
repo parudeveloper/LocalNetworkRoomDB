@@ -13,6 +13,6 @@ interface HotelDAO {
     suspend fun insertHotels(hotel: Hotel)
 
     @Query("SELECT * FROM hotel")
-    fun getAllHotels(): Flow<List<Hotel>>
+    fun getAllHotels():Flow<List<Hotel>>
 
 }

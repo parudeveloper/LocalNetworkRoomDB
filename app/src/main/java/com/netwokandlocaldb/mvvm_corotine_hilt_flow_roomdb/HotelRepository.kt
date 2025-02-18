@@ -10,10 +10,10 @@ class HotelRepository @Inject constructor(private val hotelDAO: HotelDAO) {
         hotelDAO.insertHotels(hotel)
     }
 
-    var getAllHotels = flow {
+    /*var getAllHotels = flow {
         emit(hotelDAO.getAllHotels())
-
-
     }
+*/
+    val getAllHotels: Flow<List<Hotel>> = hotelDAO.getAllHotels()
 
 }
